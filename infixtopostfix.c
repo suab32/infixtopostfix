@@ -1,4 +1,4 @@
-#wow sir I m truly impressed by your work#
+
 #include<stdio.h>
 #include<stdlib.h>
 #include<string.h>
@@ -150,7 +150,8 @@ int main()
     char p[50],*q;
     int choice,item;
     struct stack *STACK;
-    while(1)
+    int t=1;
+    while(t)
     {
         printf("\n1.to convert infix to postfix\n");
         printf("2.to evaluate postfix\n");
@@ -177,6 +178,6 @@ int main()
         default:printf("invalid choice\n");
                 break;
         }
+        printf("1.continue 2.terminate\n");
     }
 }
-
