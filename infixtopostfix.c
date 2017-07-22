@@ -150,7 +150,7 @@ int main()
     char p[50],*q;
     int choice,item;
     struct stack *STACK;
-    int t=1;
+    int t=0;
     while(t)
     {
         printf("\n1.to convert infix to postfix\n");
