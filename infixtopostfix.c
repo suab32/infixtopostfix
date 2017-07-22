@@ -150,8 +150,8 @@ int main()
     char p[50],*q;
     int choice,item;
     struct stack *STACK;
-    int s=1;
-    while(s)
+    int t=1;
+    while(t)
     {
         printf("\n1.to convert infix to postfix\n");
         printf("2.to evaluate postfix\n");
@@ -179,6 +179,6 @@ int main()
                 break;
         }
         printf("1.continue 2.terminate\n");
-       scanf("%d",&s);
+       scanf("%d",&t);
     }
 }
